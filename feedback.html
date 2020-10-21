@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/weblogo.jpg" type="images">
+    <title>Feedback</title>
+</head>
+<style>
+     body {
+      background-image: url("Images/Feedbackpage.jpg");
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size: 100% 100%;
+    }
+    img {
+  display: block;
+  margin: auto;
+   }
+    img:hover {
+        box-shadow: 0 0 0 2px #ffe986;;
+      }
+table{
+    width: 25cm;
+    border: 10px double black;
+    padding: 2pc;
+    font-weight: 700;
+    color: #042611;
+    margin: auto;
+    margin-top: 14%;
+    background-color:#ffe986;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    </style>
+<body>
+
+    <form action="thanks.html" method="GET">
+        <table> 
+            <tr>
+                <td>
+                    <label for="fname">First Name:</label>
+
+                </td>
+                <td>
+                    <input type="text" name="fname" id="fname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name:</label>
+
+                </td>
+                <td>
+                    <input type="text" name="lname" id="lname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">DOB:</label>
+
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select your gender:
+                </td>
+                <td style="font-size: 17px; font-weight: 500;">
+                    
+                    <input type="radio" id="male" name="Gender" value="male">
+                    <label for="Male">Male</label>
+                    
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label>
+                    
+                    <input type="radio" id="other" name="Gender" value="other">
+                    <label for="other">Other</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="emailid">Email ID:</label>
+
+                </td>
+                <td>
+                    <input type="email" name="emailid" id="emailid" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Subscribe to our Newsletter:
+                </td>
+                <td style="font-size: 17px; font-weight: 500;">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes" checked>
+                    <label for="newsletter">Send Newsletter</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Favorite Genre:
+                </td>
+                <td style="font-size: 17px; font-weight: 500;">
+                    <input type="checkbox" id="genre1" name="genre1" value="genre1">
+                    <label for="genre1">Young Adult</label>
+                    <br>
+        
+                    <input type="checkbox" id="genre2" name="genre2" value="genre2">
+                    <label for="genre2">Mystery</label>
+                    <br>
+                    
+                    <input type="checkbox" id="genre3" name="genre3" value="genre3">
+                    <label for="genre3">Self-Help</label>
+                    <br>
+
+                    <input type="checkbox" id="genre4" name="genre4" value="genre4">
+                    <label for="genre4">Sci-Fi</label>
+                    <br>
+                    
+                    <input type="checkbox" id="genre5" name="genre5" value="genre5">
+                    <label for="genre5">History</label>
+                    <br>
+
+                    <input type="checkbox" id="genre6" name="genre6" value="genre6">
+                    <label for="genre6">Poetry</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Select your country:</label>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="cuba">Cuba</option>
+                        <option value="India" selected>India</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="comments">Any comments/suggestions?</label>
+                </td>
+                <td>
+                    <textarea name="comments" id="comments" cols="30" rows="8"></textarea>
+                   
+                </td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input type="reset">
+                    
+                </td>
+                <td>
+                    <button type="submit">Submit Feedback</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <a href="index.html">
+        <img src="Images/home.png" alt="About" style="width:150px;height:150px; ">
+    </a>
+    
+</body>
+</html>
