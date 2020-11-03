@@ -15,25 +15,23 @@
       width: auto;
     }
   img:hover {
-    box-shadow: 0 0 0 2px #ffe986;
+    box-shadow: 0 1px 0 0 #ffe986;
       }
+
       img {
-  display: block;
+      display:table-header-group;
+      align-items: center;
+      max-width: 100%;
+      margin-top: 2%;
+      height: auto;
+      }
+  
+  table{
   margin: auto;
-   }
-table{
-  border-collapse: separate; 
-  font-size: 18px;
-  width: 25cm;
-  margin: auto;
-  margin-top: 15%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
+  align-items: center;
+  width: 70%;
 }
-    th, td {
-  padding: 10px;
-  text-align: center;
-}
+
 #t01 tr:nth-child(even) {
   background-color:#ffe986;
 }
@@ -43,11 +41,59 @@ table{
 #t01 th {
   background-color: black;
   color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#t01 td{
+  padding: 10px;
+  text-align: center;
 }
     </style>
 <br>
 <body>
-    <table id="t01">
+  <br><br><br><br><br>
+  <table>
+      <tr>
+         <td>
+           <a href="index.html">
+                <img src="Images/home.png" alt="About">
+           </a>
+         </td>
+ 
+         <td>
+             <a href="about.html">
+                 <img src="Images/About.png" alt="About">
+             </a> 
+         </td>
+ 
+         <td>
+             <a href="books.html">
+                 <img src="Images/books.png" alt="Books">
+             </a>
+         </td>
+ 
+         <td>
+             <a href="fotm.html">
+                 <img src="Images/fotm.png" alt="Feature of the month">
+             </a>
+         </td>
+ 
+         <td>
+             <a href="contact.html">
+                 <img src="Images/contact.png" alt="Contact Information">
+             </a>
+         </td>
+ 
+         <td>
+             <a href="feedback.html">
+                 <img src="Images/feedback.png" alt="Feedback Form">
+             </a>
+         </td>
+      </tr>
+      
+  </table>
+    <table id="t01" style="width: 30cm; font-size: 18px; font-family: Georgia, Times, 'Times New Roman', serif;">
         <tr>
           <th>Genre</th>
           <th>Book Name</th>
@@ -182,10 +228,6 @@ table{
                
 
       </table>
-      <br>
-    <a href="index.html">
-        <img src="Images/home.png" alt="About" style="width:150px;height:150px;">
-    </a>
     
 
     
